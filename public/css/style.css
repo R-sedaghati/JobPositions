@@ -1,0 +1,30 @@
+body {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(75, 14, 154, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+}
+
+.inner-row {
+  height: 100vh;
+}
+
+.form-box {
+  background: #fff;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+.registration-form {
+  display: none;
+}
+
+.otp-field {
+  width: 100%;
+  border-radius: 4px;
+  padding: 7px;
+  text-align: center;
+  border: 1px solid #ddd;
+  display: inline-block;
+}
